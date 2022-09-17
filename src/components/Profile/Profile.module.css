@@ -1,0 +1,13 @@
+.profile {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    background: #f2f2ff;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

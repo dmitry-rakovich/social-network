@@ -1,0 +1,28 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+    background: rgba(213, 213, 255, 0.3);
+    padding: 20px;
+}
+
+.textarea {
+    width: 100%;
+    resize: none;
+    min-height: 200px;
+    padding: 5px;
+    font-family: inherit;
+}
+.input {
+    padding: 5px;
+}
