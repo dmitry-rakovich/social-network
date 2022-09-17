@@ -1,20 +1,19 @@
-import { Link, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 import { Layout } from "./components/Layout/Layout";
-import { Home } from './pages/Home'
-import { News } from './pages/News'
-import { Notfound } from './pages/Notfound'
-import { Profile } from './pages/Profile'
+import { Newspage } from "./pages/Newspage"
+import { Notfoundpage } from "./pages/Notfoundpage"
+import { Profilepage } from "./pages/Profilepage"
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-        <Route index element={<Home/>} />
-        <Route path="/news" element={<News />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="*" element={<Notfound />} />
+        <Route path="/" element={<Navigate to="/news" replace/>}/>
+        <Route path="/news" element={<Newspage />} />
+        <Route path="/profile" element={<Profilepage />} />
+        <Route path="*" element={<Notfoundpage />} />
         </Route>
       </Routes>
     </>
