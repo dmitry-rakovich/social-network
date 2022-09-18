@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <div className={style.profile_wrapper}>
     <div className={style.profile}>
-        <img className={style.avatar} src="./images/avatar.jpg" width='200' alt="avatar" />
+        <img className={style.avatar} src="images/avatar.jpg" width='200' alt="avatar" />
         <div className={style.info}>
             <h1>Dmitry Rakovich</h1>
             <p>City: Minsk</p>
