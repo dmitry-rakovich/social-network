@@ -1,6 +1,10 @@
-.profile {
+.profile_wrapper {
     display: flex;
     width: 100%;
+    background: #f2f2ff;
+}
+.profile {
+    display: flex;
     gap: 50px;
     background: #f2f2ff;
     padding: 20px;
@@ -10,4 +14,55 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.button_show_post {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: max-content;
+    background: none;
+    border: 1px solid rgb(150 150 255);
+    align-self: center;
+}
+
+.button_show_post:hover {
+    box-shadow: 0px 0px 5px 1px rgb(150 150 255);
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+    background: rgba(213, 213, 255, 0.3);
+    padding: 20px;
+}
+
+.textarea {
+    width: 100%;
+    resize: none;
+    min-height: 200px;
+    padding: 5px;
+    font-family: inherit;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.input {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.input:focus, .textarea:focus {
+    box-shadow: 0px 0px 5px 1px rgb(150 150 255);
 }

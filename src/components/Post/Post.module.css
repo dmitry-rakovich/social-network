@@ -17,14 +17,16 @@
     gap: 10px;
 }
 .button {
-    background: none;  
-    border: none;
+    background: none;
+    border: 1px solid rgb(150 150 255);
     cursor: pointer;
     width: 50px;
-    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 .button:hover {
-    font-weight: bold;
+    box-shadow: 0px 0px 5px 1px rgb(150 150 255);
 }
 .textarea {
     width: 100%;
@@ -38,9 +40,6 @@
     padding: 5px;
 }
 
-.save_button {
-    width: 100%;
-}
 .text {
     overflow-wrap: anywhere;
 }
