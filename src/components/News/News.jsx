@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
+import { useSelector } from "react-redux"
 import style from './News.module.css'
-import {Filter} from '../Filter/Filter'
-import news from '../../news.js'
 const News = () => {
+
+      const news = useSelector(state => state.news.news)
 
       const [filteredNews, setFilterednews] = useState(news)
 
