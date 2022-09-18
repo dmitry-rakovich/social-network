@@ -5,9 +5,33 @@ const postSlice = createSlice({
     initialState: {
         posts: 
         [
-            {isEdit: false, text: '25/17 - Одолень', id: 1, img:'https://avatars.yandex.net/get-music-content/6296749/8028cffd.a.23255928-1/200x200'}, 
-            {isEdit: false, text: '25/17 - Неизбывность', id: 2, img:'https://avatars.yandex.net/get-music-content/6214856/d568abc0.a.22248502-1/200x200'}, 
-            {isEdit: false, text: '25/17 - Байки из склепа', id: 3, img:''},     
+            {
+                isEdit: false,
+                text: `
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti cupiditate vero praesentium fugiat esse perspiciatis, veniam pariatur, aspernatur, dolore numquam nulla modi! Necessitatibus qui provident eos magni cupiditate, exercitationem voluptate.
+                    Porro, iusto culpa. Et ab cumque voluptatum enim minus expedita voluptatem sint sequi reprehenderit porro. Quis nihil, voluptatibus ullam aliquam ab nisi, soluta maxime rerum odit delectus aspernatur ad unde.
+                    Molestias natus repellat ipsa. Ducimus nostrum alias corrupti error id magnam autem nesciunt repellendus recusandae! Expedita nihil eveniet, esse minima molestias et error odit rerum iure, ut, vel fugit aliquid.
+                `,
+                id: 1,
+                img:'https://avatars.yandex.net/get-music-content/6296749/8028cffd.a.23255928-1/200x200'}, 
+            {
+                isEdit: false,
+                text: `
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti cupiditate vero praesentium fugiat esse perspiciatis, veniam pariatur, aspernatur, dolore numquam nulla modi! Necessitatibus qui provident eos magni cupiditate, exercitationem voluptate.
+                    Porro, iusto culpa. Et ab cumque voluptatum enim minus expedita voluptatem sint sequi reprehenderit porro. Quis nihil, voluptatibus ullam aliquam ab nisi, soluta maxime rerum odit delectus aspernatur ad unde.
+                    Molestias natus repellat ipsa. Ducimus nostrum alias corrupti error id magnam autem nesciunt repellendus recusandae! Expedita nihil eveniet, esse minima molestias et error odit rerum iure, ut, vel fugit aliquid.
+                `,
+                id: 2,
+                img:'https://avatars.yandex.net/get-music-content/6214856/d568abc0.a.22248502-1/200x200'}, 
+            {
+                isEdit: false,
+                text: `
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti cupiditate vero praesentium fugiat esse perspiciatis, veniam pariatur, aspernatur, dolore numquam nulla modi! Necessitatibus qui provident eos magni cupiditate, exercitationem voluptate.
+                    Porro, iusto culpa. Et ab cumque voluptatum enim minus expedita voluptatem sint sequi reprehenderit porro. Quis nihil, voluptatibus ullam aliquam ab nisi, soluta maxime rerum odit delectus aspernatur ad unde.
+                    Molestias natus repellat ipsa. Ducimus nostrum alias corrupti error id magnam autem nesciunt repellendus recusandae! Expedita nihil eveniet, esse minima molestias et error odit rerum iure, ut, vel fugit aliquid.
+                `,
+                id: 3,
+                img:''},     
         ]
     }, 
     reducers: {
