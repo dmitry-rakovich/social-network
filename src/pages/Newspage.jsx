@@ -4,6 +4,7 @@ const Newspage = () => {
 
   return (
     <>
+    <Filter/>
     <News/>
     </>
   )
