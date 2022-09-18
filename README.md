@@ -1,4 +1,4 @@
-Click [here](https://dmitry-rakovich.github.io/news) to test app in browser
+Click [here](https://dmitry-rakovich.github.io/social-network/) to test app in browser
 
 or 
 
