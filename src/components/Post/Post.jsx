@@ -49,7 +49,7 @@ const Post = ({img, text, id, isEdit}) => {
                 defaultValue={img}
                 placeholder="Add new image URL"
                 />
-                <button className={style.save_button} onClick={(e) => saveItem(e)}>Save</button>
+                <button className={style.button} onClick={(e) => saveItem(e)}>Save</button>
             </div>
       }
     </>
