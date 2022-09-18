@@ -15,7 +15,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Technique',
                 id: 1,
-                img:'./images/nike.jpg'
+                img:'/social-network/images/nike.jpg'
             },
             {
                 text: `
@@ -26,7 +26,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Sport',
                 id: 2,
-                img:'./images/sport1.png'
+                img:'/social-network/images/sport1.png'
             },
             {
                 text: `
@@ -38,7 +38,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Auto',
                 id: 3,
-                img:'./images/ferrari.jpeg'
+                img:'/social-network/images/Ferrari.jpeg'
             }, 
             {
                 text: `
@@ -50,7 +50,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Technique',
                 id: 4,
-                img:'./images/NX9000.jpg'
+                img:'/social-network/images/NX9000.jpg'
             },
             {
                 text: `
@@ -61,7 +61,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Auto',
                 id: 5,
-                img:'./images/mustang.jpeg'
+                img:'/social-network/images/Mustang.jpeg'
             },  
             {
                 text: `
@@ -74,7 +74,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Sport',
                 id: 6,
-                img:'./images/sport2.jpg'
+                img:'/social-network/images/sport2.jpg'
             }, 
         ],
         news: [
@@ -89,7 +89,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Technique',
                 id: 1,
-                img:'./images/nike.jpg'
+                img:'/social-network/images/nike.jpg'
             },
             {
                 text: `
@@ -100,7 +100,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Sport',
                 id: 2,
-                img:'./images/sport1.png'
+                img:'/social-network/images/sport1.png'
             },
             {
                 text: `
@@ -112,7 +112,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Auto',
                 id: 3,
-                img:'./images/ferrari.jpeg'
+                img:'/social-network/images/Ferrari.jpeg'
             }, 
             {
                 text: `
@@ -124,7 +124,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Technique',
                 id: 4,
-                img:'./images/NX9000.jpg'
+                img:'/social-network/images/NX9000.jpg'
             },
             {
                 text: `
@@ -135,7 +135,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Auto',
                 id: 5,
-                img:'./images/mustang.jpeg'
+                img:'/social-network/images/Mustang.jpeg'
             },  
             {
                 text: `
@@ -148,7 +148,7 @@ const newsSlice = createSlice({
                 `,
                 category: 'Sport',
                 id: 6,
-                img:'./images/sport2.jpg'
+                img:'/social-network/images/sport2.jpg'
             }, 
         ], 
     }, 
