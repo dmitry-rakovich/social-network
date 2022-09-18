@@ -9,7 +9,7 @@ const Profile = () => {
         <div className={style.info}>
             <h1>Dmitry Rakovich</h1>
             <p>City: Minsk</p>
-            <p>День рождения: 1 сентября 1995 г.</p>
+            <p>Birthday: 1 September 1995 г.</p>
         </div>
     </div>
     </div>
